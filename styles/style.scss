@@ -1,15 +1,5 @@
-$primaryBtn: #14fbf2;
-$textColor: rgb(58, 42, 42);
-
-header {
-  background: linear-gradient(to right, #ffffff, #70cbff, #ff3e96, #440097);
-  display: flex;
-  justify-content: center;
-  color: $textColor;
-  button {
-    background: $primaryBtn;
-  }
-}
+@import "./variables";
+@import "./header";
 
 .contact button {
   background: $primaryBtn;
