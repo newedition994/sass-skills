@@ -1,10 +1,17 @@
-header {
-  background: linear-gradient(to right, #ffffff, #70cbff, #ff3e96, #440097);
+@mixin flexCenter {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+header {
+  @include flexCenter();
+  background: linear-gradient(to right, #ffffff, #70cbff, #ff3e96, #440097);
   color: $textColor;
+
   button {
     background: $primaryBtn;
+    margin-left: 1.3rem;
     &:hover {
       background: #ffdbc8;
     }
