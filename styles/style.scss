@@ -2,5 +2,7 @@
 @import "./header";
 
 .contact button {
-  background: $primaryBtn;
+  @include flexCenter(row, #610bfc);
+  margin-top: 1.3rem;
+  position: right;
 }

@@ -1,11 +1,13 @@
-@mixin flexCenter {
+@mixin flexCenter($direction, $background) {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: $direction;
+  background: $background;
 }
 
 header {
-  @include flexCenter();
+  @include flexCenter(column, #ff37cc);
   background: linear-gradient(to right, #ffffff, #70cbff, #ff3e96, #440097);
   color: $textColor;
 
