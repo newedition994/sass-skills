@@ -4,4 +4,4 @@
 
 1. HTML file
 2. Styles folder
-   2a. styles files
+   1. styles files
