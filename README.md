@@ -3,4 +3,5 @@
 ### Includes
 
 1. HTML file
-2. Sass file
+2. Styles folder
+   2a. styles files
